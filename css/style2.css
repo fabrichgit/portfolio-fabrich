@@ -427,14 +427,16 @@ svg {
 .info-about1,
 .info-about2,
 .info-about3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #2c292c;
     font-size: .5rem;
     position: absolute;
     padding: 10px;
     width: 80px;
-    height: 90px;
+    height: 80px;
     border-radius: 65% 28% 65% 28% / 55% 70% 70% 55%;
-    display: block;
     box-shadow: var(--neon-box-shadow);
     border: 1px solid var(--hover-color);
     outline: 2px solid var(--bg-color);
