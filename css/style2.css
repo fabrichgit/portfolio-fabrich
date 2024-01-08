@@ -827,7 +827,7 @@ svg {
 
 
 .contact {
-    background: var(--secon-bg-color);
+    background: var(--bg-color);
     width: 100%;
 }
 
@@ -842,7 +842,7 @@ svg {
 .contact form textarea {
     width: 100%;
     color: var(--text-color);
-    background: var(--bg-color);
+    background:  #271b25;
     margin-bottom: .8rem;
     border: none;
     border-radius: 5px;
@@ -878,6 +878,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background:  #271b25;
 }
 
 footer p {
