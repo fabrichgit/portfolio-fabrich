@@ -564,21 +564,26 @@ svg {
 }
 
 .skill-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 50px;
 }
 
 .skill-bar {
     margin-bottom: 2.5rem;
 }
 
-.skill-main h3 {
+.skill-main h2 {
     margin-bottom: 2rem;
     font-size: var(--norma-font);
     text-align: center;
+}
+
+.skill-left{
+    width: 50vw;
 }
 
 .skill-left .skill-bar .info {
@@ -641,9 +646,17 @@ svg {
     animation: css 5s;
 }
 
+.skill-right{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
 .professional {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .box {
